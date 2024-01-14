@@ -16,3 +16,5 @@ Challenges we ran into
 ---> We were able to complile the code and also upload the extension (earlier our idea was to make to a chrome extension), but the buttons were not working.
 ---> We also couldn't take much help from google and youtube tutorials, as all the codes were available for manifest v2.
 ---> We then decided to make a webpage but faced issues in making a perfect textbox for taking input; as the input text was being taken in one single line and not a paragraph.(though we cracked this issue finally :)
+
+The link to the youtube video explaining my project-  https://youtu.be/aV42hJP5Hgc?si=PqnluAwtx3ZN0mBx
