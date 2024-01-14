@@ -1,0 +1,184 @@
+<html>
+  <head>
+    <link rel="icon" type="image/x-icon" href="Logo2.jpg" sizes="100*100" />
+    <title>Transcribe</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@300&display=swap");
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+      }
+      .banner {
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.01),
+            rgba(0, 0, 0, 0.01)
+          ),
+          url("bg14.jpg");
+        background-size: cover;
+        background-position: center;
+      }
+      .content {
+        width: 100%;
+        position: absolute;
+        top: 10%;
+        transform: translateY(-50%);
+        text-align: center;
+      }
+      .content h1 {
+        text-shadow: 5px 5px rgba(0, 0, 0, 0.2);
+        color: white;
+        font-size: 100px;
+      }
+      .content h2 {
+        color: rgb(180, 180, 180);
+        font-size: 60px;
+        font-family: "Playpen Sans", cursive;
+      }
+      .content h2::after {
+        content: "";
+        height: 3px;
+        width: 0;
+        background: #009688;
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        transition: 0.5s;
+      }
+      .content h2:hover::after {
+        width: 100%;
+      }
+      .asd {
+        position: absolute;
+        top: 240px;
+        left: 90px;
+      }
+      .fgh {
+        position: absolute;
+        top: 240px;
+        right: 90px;
+      }
+      button {
+        width: 200px;
+        padding: 15px 0;
+        text-align: center;
+        margin: 20px 10px;
+        border-radius: 25px;
+        font-weight: bold;
+        border: 2px solid #009688;
+        color: white;
+        cursor: pointer;
+        background-color: transparent;
+        position: relative;
+        overflow: hidden;
+      }
+      span {
+        background: #009688;
+        height: 100%;
+        width: 0;
+        border-radius: 25px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        z-index: -1;
+        transition: 0.5s;
+      }
+      button:hover span {
+        width: 100%;
+      }
+      button:hover {
+        border: none;
+      }
+      a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+      }
+      a:hover {
+        color: white;
+      }
+      .abc {
+        position: absolute;
+        top: 550px;
+        left: 180px;
+      }
+      .def {
+        position: absolute;
+        top: 550px;
+        right: 180px;
+      }
+      .para1 {
+        color: rgb(116, 115, 115);
+        font-size: 22px;
+        text-align: left justify;
+        position: absolute;
+        top: 390px;
+        left: 75px;
+      }
+      .para2 {
+        color: rgb(116, 115, 115);
+        font-size: 22px;
+        text-align: right justify;
+        position: absolute;
+        top: 390px;
+        right: 150px;
+      }
+      .rounded-rectangle {
+        width: 600px;
+        height: 550px;
+        background-color: rgba(77, 76, 76, 0.4);
+        border-radius: 40px;
+        position: absolute;
+        top: 200px;
+        left: 10px;
+      }
+      .rounded-rectangle1 {
+        width: 600px;
+        height: 550px;
+        background-color: rgba(77, 76, 76, 0.4);
+        border-radius: 40px;
+        position: absolute;
+        top: 200px;
+        right: 10px;
+      }
+      .image {
+        height: 600px;
+        position: absolute;
+        top: 95px;
+        right: 230px;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="Logo1.jpg" class="image" />
+    <div class="banner"></div>
+    <div class="content">
+      <div class="rounded-rectangle"></div>
+      <div class="rounded-rectangle1"></div>
+      <h1>| TRANSCRIBE |</h1>
+      <h2 class="asd">Speech-to-Text</h2>
+      <h2 class="fgh">Text-to-Speech</h2>
+      <p class="para1">
+        Convert audio to text in real-time.<br />
+        This software listens and captures<br />
+        spoken audio as input and outputs a<br />
+        transcript that is as close to verbatim as possible.
+      </p>
+      <p class="para2">
+        Convert any text to audio with a <br />
+        click of a button. This software is <br />
+        able to read online or digital text <br />
+        clearly and in a louder tone.
+      </p>
+      <div>
+        <button type="button" class="abc">
+          <span></span><a href="popup.html">SPEECH TO TEXT</a>
+        </button>
+        <button type="button" class="def">
+          <span></span><a href="popup1.html">TEXT TO SPEECH</a>
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
